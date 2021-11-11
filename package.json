@@ -12,9 +12,10 @@
     "craco-less": "^1.17.0",
     "emoji-mart": "^3.0.1",
     "react": "^16.14.0",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.8.0",
+    "react-player": "^2.9.0",
     "react-scripts": "3.4.4",
-    "reactjs-media": "^2.1.2"
+    "reactjs-media": "^2.1.4"
   },
   "scripts": {
     "start": "craco start",

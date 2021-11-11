@@ -37,7 +37,6 @@ const TitleBar = () => (
     </div>
     <div
       style={{
-        width: "calc(60vw)",
         margin: "24px 12px 0 12px",
       }}
     >

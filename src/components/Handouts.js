@@ -27,21 +27,27 @@ const Handouts = () => (
   <>
     <h2
       style={{
-        margin: "24px 12px 0 12px",
+        margin: "12px",
       }}
     >
       Handouts
     </h2>
     <List
       style={{
-        margin: "24px 12px 0 12px",
+        margin: "12px",
       }}
       itemLayout="horizontal"
       dataSource={data}
       renderItem={(item) => (
         <List.Item>
           <List.Item.Meta
-            avatar={<FilePdfOutlined />}
+            avatar={
+              <FilePdfOutlined
+                style={{
+                  fontSize: "40px",
+                }}
+              />
+            }
             title={<a href="https://ant.design">{item.title}</a>}
             description="Ant Design, a design language for background applications, is refined by Ant UED Team"
           />
