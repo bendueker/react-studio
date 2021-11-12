@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/94e5b0cb-ad01-4a4a-9571-8e7d4ccc6661/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/NextGenStudioV2",
+  "appService.deploySubpath": "."
+}
