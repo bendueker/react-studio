@@ -55,6 +55,19 @@ const StudioLayout = (props) => {
                 background: "#dedede",
               }} */
             >
+              <div
+                style={{
+                  height: "230px",
+                  margin: "0 12px",
+                  background: "#fff",
+                }}
+              >
+                <VideoPlayer
+                  src={
+                    "https://qa.onlinexperiences.com/customvts/Prototypes/Lighthouse/lighthouse-rp-v3/speaker.mp4"
+                  }
+                ></VideoPlayer>
+              </div>
               <StudioTabs size={size}></StudioTabs>
             </Col>
           </Row>

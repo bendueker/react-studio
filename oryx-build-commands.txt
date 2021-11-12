@@ -1,0 +1,4 @@
+PlatformWithVersion=Node.js 14.17.6
+BuildCommands=
+, npm install
+, npm start
