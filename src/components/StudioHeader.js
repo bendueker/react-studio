@@ -11,7 +11,12 @@ import {
   Menu,
   Dropdown,
 } from "antd";
-import { EyeOutlined, UserOutlined, SettingFilled,AreaChartOutlined } from "@ant-design/icons";
+import {
+  EyeOutlined,
+  UserOutlined,
+  SettingFilled,
+  AreaChartOutlined,
+} from "@ant-design/icons";
 import "../App.less";
 import { MenuItem } from "@material-ui/core";
 
@@ -50,7 +55,7 @@ function StudioHeader(props) {
     </Menu>
   );
 
-    const menureports = (
+  const menureports = (
     <Menu>
       <Menu.ItemGroup title="Reports">
         <Menu.Item>Registration</Menu.Item>
