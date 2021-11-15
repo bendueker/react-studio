@@ -40,7 +40,10 @@ const StudioLayout = (props) => {
                 {/*                 <Affix offsetTop={74}> */}
                 <VideoPlayer
                   src={
-                    "https://qa.onlinexperiences.com/customvts/Prototypes/Lighthouse/lighthouse-rp-v4/Noteworthey.mp4"
+                    "http://placehold.jp/5757f0/ffffff/1600x900.png?text=SLIDES"
+                  }
+                  poster={
+                    "http://placehold.jp/5757f0/ffffff/1600x900.png?text=SLIDES"
                   }
                 ></VideoPlayer>
                 {/*                 </Affix> */}

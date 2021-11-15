@@ -37,11 +37,14 @@ function StudioHeader(props) {
     <Menu>
       <Menu.ItemGroup title="Settings">
         <Menu.Item>Video</Menu.Item>
-        <Menu.Item>Display</Menu.Item>
+      <SubMenu title="Layouts">
+        <Menu.Item key={1}><a href="/">Video Only</a></Menu.Item>
+        <Menu.Item key={2}><a href="slides">Video and Slides</a></Menu.Item>
+      </SubMenu>
       </Menu.ItemGroup>
       <SubMenu title="Themes">
-        <Menu.Item key={1}>Dark Theme</Menu.Item>
-        <Menu.Item key={2}>Light Theme</Menu.Item>
+        <Menu.Item key={3}>Dark Theme</Menu.Item>
+        <Menu.Item key={4}>Light Theme</Menu.Item>
       </SubMenu>
     </Menu>
   );

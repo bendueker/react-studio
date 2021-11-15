@@ -8,6 +8,7 @@ import ReactPlayer from "react-player";
 function VideoPlayer(props) {
   return (
     <ReactPlayer
+      poster={props.poster}
       url={props.src}
       /*       poster="http://placehold.jp/5757f0/ffffff/1600x900.png?text=SLIDES" */
       controls={true}
